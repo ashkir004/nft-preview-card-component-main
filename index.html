@@ -13,7 +13,7 @@
 <body>
   <h1 class="sr-only">NFT preview card component</h1>
   <main class="card">
-    <button class="card__hero">
+    <button class="card__hero" aria-label="View details of Equilibrium #3429">
       <img class="card__hero-img" src="./images/image-equilibrium.jpg" alt="Equilibrium image">
       <div class="card__overlay"></div>
       <img class="card__view-icon" src="./images/icon-view.svg" alt="View icon">
@@ -26,12 +26,12 @@
 
       <div class="card__body">
         <div class="card__price text-3">
-          <img src="./images/icon-ethereum.svg" alt="Ethereum icon">
+          <img src="./images/icon-ethereum.svg" alt="Ethereum icon" aria-hidden="true">
           <span>0.041 ETH</span>
         </div>
 
         <div class="card__time text-3-regular">
-          <img src="./images/icon-clock.svg" alt="Clock icon">
+          <img src="./images/icon-clock.svg" alt="Clock icon" aria-hidden="true">
           <span>3 days left</span>
         </div>
       </div>
@@ -39,7 +39,7 @@
       <hr class="card__divider">
 
       <div class="card__footer">
-        <img src="./images/image-avatar.png" alt="Avatar image" class="card__avatar">
+        <img src="./images/image-avatar.png" alt="Avatar of Jules Wyvern" class="card__avatar">
         <p class="text-3-regular">Creation of <span class="card__author">Jules Wyvern</span></p>
       </div>
     </div>
