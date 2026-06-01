@@ -31,6 +31,8 @@ A responsive NFT preview card component built with HTML and CSS. The component s
 - The component is designed using BEM for maintainable and scalable CSS.
 - All styles are modular and reusable.
 
+### Links
 
+- Repository: [nft-preview-card-component-main](https://github.com/ashkir004/nft-preview-card-component-main)
 
-
+- Live Site: [nft-preview-card-component-main-app](https://nft-preview-card-component-main-app.netlify.app/)
