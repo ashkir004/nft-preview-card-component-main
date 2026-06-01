@@ -1,0 +1,26 @@
+{
+  "name": "nft-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "a frontendmentor.io challenge",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "frontendmentor.io"
+  ],
+  "homepage": "https://github.com/ashkir004/nft-preview-card-component-main#readme",
+  "bugs": {
+    "url": "https://github.com/ashkir004/nft-preview-card-component-main/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkir004/nft-preview-card-component-main.git"
+  },
+  "license": "ISC",
+  "author": "ashkir004",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
