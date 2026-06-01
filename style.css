@@ -82,6 +82,12 @@
     border: 0;
 }
 
+*:focus-visible {
+    outline: 2px solid var(--cyan-400);
+    outline-offset: 0px;
+    border-radius: var(--radius-15);
+}
+
 body {
     background-color: var(--blue-950);
     color: var(--white);
@@ -107,6 +113,8 @@ body {
     cursor: pointer;
     display: grid;
     place-items: center;
+    border: none;
+    background: none;
 }
 
 .card__hero .card__hero-img {
@@ -208,18 +216,22 @@ body {
 }
 
 /* CARD HOVER */
-.card__hero:hover .card__overlay {
+.card__hero:hover .card__overlay,
+.card__hero:focus-visible .card__overlay {
     opacity: 0.5;
 }
 
-.card__hero:hover .card__view-icon {
+.card__hero:hover .card__view-icon,
+.card__hero:focus-visible .card__view-icon {
     opacity: 1;
 }
 
-.card:has(.card__hero:hover) .card__title {
+.card:has(.card__hero:hover) .card__title,
+.card:has(.card__hero:focus-visible) .card__title {
     color: var(--cyan-400);
 }
 
-.card:has(.card__hero:hover) .card__author {
+.card:has(.card__hero:hover) .card__author,
+.card:has(.card__hero:focus-visible) .card__author {
     color: var(--cyan-400);
 }
